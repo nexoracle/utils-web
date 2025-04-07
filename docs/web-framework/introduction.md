@@ -94,4 +94,3 @@ The following documentation sections provide detailed information about using Ap
 4. [Middleware](./middleware.md) - Using and creating middleware
 5. [Static Files](./serving-static.md) - Serving static content
 6. [Views Rendering](./views-and-rendering.md) - Rendering templates
-7. [Examples Usage](./examples.md) - Advanced features and customization
