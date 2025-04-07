@@ -18,7 +18,7 @@ export default function Home(): JSX.Element {
               useEffect(() => {
                 const timer = setTimeout(() => {
                   window.location.href = "/docs/introduction";
-                }, 3000);
+                }, 2000);
                 return () => clearTimeout(timer);
               }, []);
 

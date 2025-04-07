@@ -1,4 +1,4 @@
-# Other Functions
+# Core Utilities
 
 ## Random String
 

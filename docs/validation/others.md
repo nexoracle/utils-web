@@ -1,4 +1,4 @@
-# Other Validators
+# Core Validators
 
 ## Has Emoji 
 Check if the string contains emoji.
