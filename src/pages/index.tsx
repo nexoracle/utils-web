@@ -5,7 +5,7 @@ import Heading from "@theme/Heading";
 
 export default function Home(): JSX.Element {
   return (
-    <Layout title="Welcome" description="Documentation & guide for the @nexoracle/utils library">
+    <Layout title="Home" description="Documentation & guide for the @nexoracle/utils library">
       <main className="hero-container">
         <div className="hero-content">
           <Heading as="h1" className="hero-title">
