@@ -9,16 +9,11 @@ const config: Config = {
   tagline: "Documentation & guide for the @nexoracle/utils library. @nexoracle/utils is a Utilities library for JavaScript and TypeScript.",
   favicon: "https://cdn.nexoracle.com/__dirname/images/nexoracle/__icon32.ico",
 
-  // Set the production url of your site here
-  url: "https://utils.nexoracle.com/",
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
+  url: "https://nexoracle-utils.vercel.app/",
   baseUrl: "/",
 
-  // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
-  organizationName: "nexoracle", // Usually your GitHub org/user name.
-  projectName: "@nexoracle/utils-web", // Usually your repo name.
+  organizationName: "maher-xubair", // Usually your GitHub org/user name.
+  projectName: "utils-web", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -55,7 +50,7 @@ const config: Config = {
   ],
 
   themeConfig: {
-    image: "img/social_card.jpg",
+    image: "https://cdn.nexoracle.com/__dirname/images/nexoracle/logo__1200x630__white_bg.png",
     navbar: {
       title: "NexOracle/Utils",
       logo: {
@@ -84,7 +79,7 @@ const config: Config = {
           label: "Support",
         },
         {
-          to: "https://github.com/nexoracle/utils",
+          to: "https://github.com/maher-xubair/utils",
           target: "_blank",
           position: "right",
           className: "header-github-link",
@@ -113,7 +108,7 @@ const config: Config = {
           items: [
             {
               label: "GitHub",
-              href: "https://github.com/nexoracle/utils",
+              href: "https://github.com/maher-xubair/utils",
             },
             {
               label: "Npm",

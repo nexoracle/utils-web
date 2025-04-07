@@ -17,6 +17,71 @@
     --docusaurus-highlighted-code-line-bg: #151f2d;
 }
 
+/* Homepage Styles */
+.hero-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100vh - 60px);
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: var(--ifm-color-primary);
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 3rem;
+    color: var(--ifm-font-color-base);
+  }
+  
+  .redirect-notice {
+    margin-top: 2rem;
+  }
+  
+  .spinner {
+    border: 4px solid rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    border-top: 4px solid var(--ifm-color-primary);
+    width: 40px;
+    height: 40px;
+    animation: spin 1s linear infinite;
+    margin: 0 auto 1rem;
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  .manual-link {
+    display: inline-block;
+    margin-top: 1rem;
+    color: var(--ifm-color-primary);
+    text-decoration: underline;
+  }
+  
+  /* Mobile responsiveness */
+  @media (max-width: 768px) {
+    .hero-title {
+      font-size: 2rem;
+    }
+    
+    .hero-subtitle {
+      font-size: 1.2rem;
+      margin-bottom: 2rem;
+    }
+  }
+
 /* For readability concerns, you should choose a lighter palette in dark mode. */
 [data-theme="dark"] {
     --ifm-color-primary: #25c2a0;

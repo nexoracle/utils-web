@@ -23,14 +23,14 @@ npm install @nexoracle/utils
 Since `@nexoracle/utils` is actively maintained, updates are released regularly on **npm**. However, if you want to use the latest features or contribute to the development, you can install the package directly from the GitHub repository:
 
 ```bash
-npm install git+https://github.com/nexoracle/utils.git
+npm install git+https://github.com/maher-xubair/utils.git
 ```
 
 ## Features
 
 - **Dependency-Free**: No external dependencies, ensuring fast performance and minimal overhead.
 - **Lightweight**: Optimized for efficiency with minimal bundle size.
-- **Comprehensive Utilities**: Includes a wide range of helper functions for string manipulation, number formatting, date operations, and more.
+- **Comprehensive Utilities**: Includes a wide range of helper functions and modules.
 - **CommonJS & ESM Support**: Fully compatible with both module systems.
 - **TypeScript Native**: Written in TypeScript for full type safety and enhanced developer experience.
 - **Cross-Platform**: Works seamlessly in Node.js and browser environments.
@@ -50,9 +50,9 @@ npm install git+https://github.com/nexoracle/utils.git
 
 ## Contributing
 
-We welcome contributions! If you find a bug, want to request a feature, or improve the documentation, feel free to open an issue or submit a pull request on [GitHub](https://github.com/nexoracle/utils).
+We welcome contributions! If you find a bug, want to request a feature, or improve the documentation, feel free to open an issue or submit a pull request on [GitHub](https://github.com/maher-xubair/utils).
 
 ## License
 
-`@nexoracle/utils` is licensed under the **[Apache-2.0 License](https://github.com/nexoracle/utils/blob/main/LICENSE)**, making it free for both personal and commercial use.
+`@nexoracle/utils` is licensed under the **[Apache-2.0 License](https://github.com/maher-xubair/utils/blob/main/LICENSE)**, making it free for both personal and commercial use.
 
