@@ -48,10 +48,6 @@ npm install git+https://github.com/maher-xubair/utils.git
 4. **Performance-Focused** - Designed to run efficiently with minimal performance impact.
 5. **Versatile** - Suitable for both frontend and backend applications.
 
-## Contributing
-
-We welcome contributions! If you find a bug, want to request a feature, or improve the documentation, feel free to open an issue or submit a pull request on [GitHub](https://github.com/maher-xubair/utils).
-
 ## License
 
 `@nexoracle/utils` is licensed under the **[Apache-2.0 License](https://github.com/maher-xubair/utils/blob/main/LICENSE)**, making it free for both personal and commercial use.
