@@ -4,6 +4,8 @@
 
 The `toQueryString` function converts an object to a URL query string.
 
+**Browser Support: ✅ Yes**
+
 #### Parameters:
 
 - **params** (`object`): Query parameters.
@@ -33,6 +35,8 @@ console.log(toQueryString({ tags: ["javascript", "nodejs"], page: 1 }));
 
 The `formatNumber` function formats a number with commas.
 
+**Browser Support: ✅ Yes**
+
 #### Parameters:
 
 - **num** (`number`): The input number.
@@ -58,6 +62,8 @@ console.log(formatNumber(1234.56)); // Output: '1,234.56'
 ## Format Bytes
 
 The `formatBytes` function converts bytes into human-readable units.
+
+**Browser Support: ✅ Yes**
 
 #### Parameters:
 
@@ -87,6 +93,8 @@ console.log(formatBytes(1073741824, 1)); // Output: '1.0 GB'
 ## Format JSON
 
 The `formatJSON` function pretty-prints JSON with specified indentation.
+
+**Browser Support: ✅ Yes**
 
 #### Parameters:
 
@@ -151,6 +159,8 @@ console.log(formatJSON(nestedObj));
 ## Runtime
 
 The `runtime` function converts seconds into a human-readable duration.
+
+**Browser Support: ✅ Yes**
 
 #### Parameters:
 

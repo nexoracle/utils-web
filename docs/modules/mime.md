@@ -4,6 +4,8 @@
 
 This returns all available mimetypes. You can also get a mimetype of file by providing the file extension.
 
+**Browser Support: ✅ Yes**
+
 ### Get MimeType
 
 Get Mimetype of any file by file extension.

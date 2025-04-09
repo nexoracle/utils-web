@@ -15,6 +15,7 @@ title: Emoji API
 - Advanced search and filtering
 - Group/category organization
 - Lightweight and fast (cached responses)
+- **Browser Support: ✅ Yes**
 
 ## Usage Examples:
 

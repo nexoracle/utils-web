@@ -8,6 +8,8 @@ This sections allows you to Validate different URL components. Such as extractin
 
 This allows you to extract the first URL from a string.
 
+**Browser Support: ✅ Yes**
+
 #### Parameter:
 
 - **str** (String) - A String containing URL
@@ -33,6 +35,8 @@ console.log(urlValidator.extractUrlFromString("No URL here")); // Output: null
 
 This allows you to extract the all available URLs from a string.
 
+**Browser Support: ✅ Yes**
+
 #### Parameter:
 
 - **str** (String) - A String containing URLs.
@@ -57,6 +61,8 @@ console.log(urlValidator.extractAllUrlFromString("No URLs here")); // Output: nu
 ## Checking Protocol
 
 Check if the given URL contains specific Protocol or not.
+
+**Browser Support: ✅ Yes**
 
 #### Parameters:
 
@@ -84,6 +90,8 @@ console.log(urlValidator.hasProtocol("http://example.com", "https")); // Output:
 
 Check if the given URL contains Domain or not.
 
+**Browser Support: ✅ Yes**
+
 #### Parameters:
 
 - **url** (String) - A string containing URL domain.
@@ -109,6 +117,8 @@ console.log(urlValidator.hasDomain("http://nexoracle.ai", "nexoracle.com")); // 
 ## Has Path
 
 Check if the given URL contains specific path or not.
+
+**Browser Support: ✅ Yes**
 
 #### Parameters:
 
@@ -136,6 +146,8 @@ console.log(urlValidator.hasPath("https://example.com", "path/to/resource")); //
 
 Check if the given URL contains specific Query Params or not.
 
+**Browser Support: ✅ Yes**
+
 #### Parameters:
 
 - **url** (String) - A string containing URL with query params.
@@ -161,6 +173,8 @@ console.log(urlValidator.hasQueryParam("https://example.com", "param")); // Outp
 ## Has Fragment
 
 Check if a URL has a specific fragment.
+
+**Browser Support: ✅ Yes**
 
 #### Parameters:
 
@@ -188,6 +202,8 @@ console.log(urlValidator.hasFragment("https://example.com", "section")); // Outp
 
 Extract components (protocol, domain, path, query, fragment) from a URL.
 
+**Browser Support: ✅ Yes**
+
 #### Parameter:
 
 - **url** (String) - A string containing URL with components.
@@ -214,6 +230,8 @@ console.log(urlValidator.extractComponents("invalid-url")); // Output: null
 
 Check if a URL is within a specified maximum length.
 
+**Browser Support: ✅ Yes**
+
 #### Parameters:
 
 - **url** (String) - A string containing URL.
@@ -239,6 +257,8 @@ console.log(urlValidator.isWithinLength("https://example.com/very/long/url", 20)
 ## Has Valid Characters
 
 Check if a URL contains only valid characters.
+
+**Browser Support: ✅ Yes**
 
 #### Parameters:
 

@@ -9,6 +9,7 @@ title: Password Validator
 A flexible and customizable password validation function for JavaScript and TypeScript applications. This function allows you to create rules for password validation with a fluent, chainable API.
 
 ## Installation
+**Browser Support: ✅ Yes**
 
 ```js
 // Import the function

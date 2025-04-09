@@ -22,9 +22,9 @@ To ensure a smooth contribution process, please follow these steps:
 5. **Update Documentation:** If your changes involve new functionality, ensure that the documentation is updated accordingly. For documentation updates, check the project's [documentation repository](https://github.com/maher-xubair/utils-web).
 6. **Submit a Pull Request:** Once you've made your changes, submit a pull request to the main repository. Be sure to provide a clear description of the changes you've made.
 
-## Star the Repo
+<!-- ## Star the Repo
 
-If you find the project helpful, please consider giving it a star on [GitHub](https://github.com/maher-xubair/utils). Starring the repository helps others discover the project and shows your appreciation for the work done.
+If you find the project helpful, please consider giving it a star on [GitHub](https://github.com/maher-xubair/utils). Starring the repository helps others discover the project and shows your appreciation for the work done. -->
 
 ## Code of Conduct
 

@@ -10,6 +10,7 @@
 - Flexible validation rules adapting to each platform's URL structure
 - Support for both standard and shortened URL formats
 - Configurable validation severity levels
+- **Browser Support: ✅ Yes**
 
 #### Parameters:
 

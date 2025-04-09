@@ -4,6 +4,8 @@
 
 The `urlValidator.isURL` function validates different types of URLs, including general URLs (http, https, file), IP addresses (IPv4, IPv6), and localhost.
 
+**Browser Support: ✅ Yes**
+
 #### Parameters:
 
 - **url** (`string`): The input URL to be validated.
@@ -34,6 +36,8 @@ console.log(urlValidator.isURL("https://www.example.com/path/to/resource?query=p
 
 This function also supports IPv4 address-based URLs.
 
+**Browser Support: ✅ Yes**
+
 #### Example Usage:
 
 ```js
@@ -54,6 +58,8 @@ console.log(urlValidator.isURL("http://192.168.1.1/path/to/resource?query=param#
 ## IPv6 URLs
 
 It supports IPv6 address-based URLs, enclosed in square brackets.
+
+**Browser Support: ✅ Yes**
 
 #### Example Usage:
 
@@ -76,6 +82,8 @@ console.log(urlValidator.isURL("http://[2001:0db8:85a3:0000:0000:8a2e:0370:7334]
 
 `urlValidator.isURL` allows you to validate `localhost` URLs with or without ports and paths.
 
+**Browser Support: ✅ Yes**
+
 #### Example Usage:
 
 ```js
@@ -96,6 +104,8 @@ console.log(urlValidator.isURL("http://localhost/path/to/resource?query=param#se
 ## File URLs
 
 You can also validate `file://` URLs for local file access.
+
+**Browser Support: ✅ Yes**
 
 #### Example Usage:
 

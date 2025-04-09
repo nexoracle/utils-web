@@ -4,6 +4,8 @@
 
 The `getDate` function returns a formatted date string from a given date or the current date if no input is provided.
 
+**Browser Support: ✅ Yes**
+
 #### Parameters:
 
 - **date** (optional): A `Date` object, string, number (timestamp), or options object.
@@ -39,6 +41,8 @@ console.log(getDate({ format: "YYYY/MM/DD" })); // Output: "2025/03/23"
 
 The `getTime` function returns a formatted time string based on the given date or current time.
 
+**Browser Support: ✅ Yes**
+
 #### Parameters:
 
 - **date** (optional): A `Date` object, string, number (timestamp), or options object.
@@ -73,6 +77,8 @@ console.log(getTime(1735428000000)); // Timestamp format. Output: "04:20:00 AM"
 
 The `timeAgo` function converts a date to a human-readable relative time format.
 
+**Browser Support: ✅ Yes**
+
 #### Parameters:
 
 - **date** (`Date`): The input date.
@@ -98,9 +104,13 @@ console.log(timeAgo(new Date(Date.now() - 30 * 24 * 60 * 60 * 1000))); // Output
 ---
 
 ## TimeZone
+
 The `getTimeZone` one function retrieves the `IANA` timezone from the system’s locale settings using the `Intl` API.
 
+**Browser Support: ✅ Yes**
+
 #### Returns:
+
 - `String` - Returns the IANA timezone string (e.g., "Asia/Karachi").
 
 #### Example Usage:
@@ -110,5 +120,5 @@ The `getTimeZone` one function retrieves the `IANA` timezone from the system’s
 const { getTimeZone } = require("@nexoracle/utils"); // CJS
 import { getTimeZone } from "@nexoracle/utils"; // ESM
 
-console.log(getTimeZone()) // Output: Your current timezone
+console.log(getTimeZone()); // Output: Your current timezone
 ```

@@ -4,6 +4,8 @@
 
 The `randomizeArray` function shuffles the elements of an array in random order.
 
+**Browser Support: ✅ Yes**
+
 #### Parameters:
 
 - **arr** (`Array`): The input array to be shuffled.
@@ -28,6 +30,8 @@ console.log(randomizeArray([1, 2, 3, 4, 5])); // Output: [3, 1, 5, 2, 4]
 
 The `uniqueArray` function removes duplicate values from an array, returning only unique elements.
 
+**Browser Support: ✅ Yes**
+
 #### Parameters:
 
 - **arr** (`Array`): The input array containing duplicate values.
@@ -51,6 +55,8 @@ console.log(uniqueArray([1, 2, 2, 3, 4, 4, 5])); // Output: [1, 2, 3, 4, 5]
 ## Flatten the Array
 
 The `flattenArray` function flattens nested arrays into a single-level array.
+
+**Browser Support: ✅ Yes**
 
 #### Parameters:
 
@@ -77,6 +83,8 @@ console.log(flattenArray([1, [], 2, [3, []], 4])); // Output: [1, 2, 3, 4]
 ## Random Element from Array
 
 The `randomElement` function selects a random element from an array.
+
+**Browser Support: ✅ Yes**
 
 #### Parameters:
 

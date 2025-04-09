@@ -15,6 +15,7 @@
 - Highly performant.
 - No dependencies.
 - Clean and focused.
+- **Browser Support: ✅ Yes**
 
 ### Colors
 

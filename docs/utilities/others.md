@@ -4,6 +4,8 @@
 
 The `getRandom` function generates a random string with customizable options.
 
+**Browser Support: ✅ Yes**
+
 #### Parameters:
 
 - **options** (optional): An object with the following properties:
@@ -46,6 +48,8 @@ console.log(getRandom({ Alphabets: true, fileExtension: ".txt", attachFileExtens
 
 The `ReadMore` function generates an invisible long string (for chat tricks, etc.).
 
+**Browser Support: ✅ Yes**
+
 #### Parameters:
 
 - **length** (`Number`, default: `4001`) - Length of the string.
@@ -70,6 +74,8 @@ console.log(ReadMore(10)); // Output: Invisible characters
 
 The `sleep` function delays execution for a given time.
 
+**Browser Support: ✅ Yes**
+
 #### Parameters:
 
 - **ms** (`Number`, default: `3000`) - Delay time in milliseconds.
@@ -90,6 +96,16 @@ import { sleep } from "@nexoracle/utils"; // ESM
   await sleep(); //  e.g await sleep(5000) for 5 sec delay
   console.log("End"); // Output: End (after 3s delay)
 })();
+
+async function demo() {
+  console.log("Starting...");
+
+  await sleep(2000); // Pauses for 2 seconds
+
+  console.log("This appears after 2 seconds");
+}
+
+demo();
 ```
 
 ---
@@ -97,6 +113,8 @@ import { sleep } from "@nexoracle/utils"; // ESM
 ## Random Integer
 
 The `randomInt` function generates a random integer in a range.
+
+**Browser Support: ✅ Yes**
 
 #### Parameters:
 
@@ -123,6 +141,8 @@ console.log(randomInt(1, 10)); // Output: 8
 
 The `truncate` function truncates a string to a maximum length.
 
+**Browser Support: ✅ Yes**
+
 #### Parameters:
 
 - **text** (`String`) - Input text.
@@ -147,6 +167,8 @@ console.log(truncate("This is a long story", 10)); // Output: This is a...
 ## Random Hex Color
 
 The `randomHexColor` function generates a random hex color code.
+
+**Browser Support: ✅ Yes**
 
 #### Returns:
 
@@ -233,16 +255,20 @@ get("https://jsonplaceholder.typicode.com/posts/1").then((response) => {
 ```
 
 ## Download File
+
 It downloads any file over https connection.
 
 #### Parameters:
+
 - **url** (`String`) - Url of the file to download.
 - **destination** (`String`) - Destination path to save file.
 
 #### Returns:
+
 `Promise<void>` - Saves the file into given destination.
 
 #### Example Usage:
+
 ```js
 // Import the function
 const { downloadFile } = require("@nexoracle/utils"); // CJS
