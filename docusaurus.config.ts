@@ -10,7 +10,7 @@ const config: Config = {
   favicon: "https://cdn.nexoracle.com/__dirname/images/nexoracle/__icon32.ico",
 
   url: "https://nexoracle-utils.pages.dev",
-  baseUrl: "/utils/",
+  baseUrl: "/utils/", 
 
   organizationName: "nexoracle",
   projectName: "utils-web",
