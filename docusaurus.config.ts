@@ -9,7 +9,7 @@ const config: Config = {
   tagline: "Documentation & guide for the @nexoracle/utils library. @nexoracle/utils is a Utilities library for JavaScript and TypeScript.",
   favicon: "https://cdn.nexoracle.com/__dirname/images/nexoracle/__icon32.ico",
 
-  url: "https://nexoracle-utils.pages.dev/utils/",
+  url: "https://nexoracle.com/",
   baseUrl: "/utils/", 
 
   organizationName: "nexoracle",
