@@ -5,7 +5,7 @@ import Heading from "@theme/Heading";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 
 export default function Home(): JSX.Element {
-  const docsUrl = useBaseUrl("/introduction");
+  const docsUrl = useBaseUrl("/doc/introduction");
 
   return (
     <Layout title="Home" description="Documentation & guide for the @nexoracle/utils library">
