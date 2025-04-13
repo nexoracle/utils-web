@@ -1,7 +1,7 @@
 {
   "name": "utils-web",
   "version": "1.0.0",
-  "private": true,
+  "packageManager": "yarn@1.22.22",
   "scripts": {
     "docusaurus": "docusaurus",
     "start": "docusaurus start",
