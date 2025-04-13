@@ -34,7 +34,7 @@ npm install @nexoracle/utils
 Since `@nexoracle/utils` is actively maintained, updates are released regularly on **npm**. However, if you want to use the latest features or contribute to the development, you can install the package directly from the GitHub repository:
 
 ```bash
-npm install git+https://github.com/maher-xubair/utils.git
+npm install git+https://github.com/nexoracle/utils.git
 ```
 
 ### Browser
@@ -92,4 +92,4 @@ https://cdn.jsdelivr.net/npm/@nexoracle/utils@1.1.17/dist/browser/index.cjs
 
 ## License
 
-`@nexoracle/utils` is licensed under the **[Apache-2.0 License](https://github.com/maher-xubair/utils/blob/main/LICENSE)**, making it free for both personal and commercial use.
+`@nexoracle/utils` is licensed under the **[Apache-2.0 License](https://github.com/nexoracle/utils/blob/main/LICENSE)**, making it free for both personal and commercial use.

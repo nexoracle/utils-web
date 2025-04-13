@@ -16,10 +16,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maher-xubair/utils-web.git"
+    "url": "git+https://github.com/nexoracle/utils-web.git"
   },
   "homepage": "https://nexoracle-utils.vercel.app",
-  "author": "maher-xubair",
+  "author": "nexoracle",
   "dependencies": {
     "@docusaurus/core": "3.7.0",
     "@docusaurus/preset-classic": "3.7.0",

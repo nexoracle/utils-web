@@ -12,8 +12,8 @@ const config: Config = {
   url: "https://nexoracle-utils.vercel.app/",
   baseUrl: "/",
 
-  organizationName: "maher-xubair", // Usually your GitHub org/user name.
-  projectName: "utils-web", // Usually your repo name.
+  organizationName: "nexoracle",
+  projectName: "utils-web",
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -79,7 +79,7 @@ const config: Config = {
           label: "Support",
         },
         {
-          to: "https://github.com/maher-xubair/utils",
+          to: "https://github.com/nexoracle/utils",
           target: "_blank",
           position: "right",
           className: "header-github-link",
@@ -108,7 +108,7 @@ const config: Config = {
           items: [
             {
               label: "GitHub",
-              href: "https://github.com/maher-xubair/utils",
+              href: "https://github.com/nexoracle/utils",
             },
             {
               label: "Npm",
