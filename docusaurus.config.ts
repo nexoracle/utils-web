@@ -29,7 +29,7 @@ const config: Config = {
       {
         docs: {
           sidebarPath: "./sidebars.ts",
-          routeBasePath: "/doc",
+          // routeBasePath: "/doc",
           editUrl:
           'https://github.com/nexoracle/utils-web/tree/main/',
           remarkPlugins: [
