@@ -300,10 +300,10 @@ const { isURLAccessible } = require("@nexoracle/utils"); // CJS
 import { isURLAccessible } from "@nexoracle/utils"; // ESM
 
 isURLAccessible("https://nexoracle.com").then((res) => {
-  console.log(res); // Output: true
+  console.log(res); // Output: { success: true, status: 200, statusText: 'OK' }
 });
 isURLAccessible("https://example.com").then((res) => {
-  console.log(res); // Output: false
+  console.log(res); // Output: { success: false, error: 'read ECONNRESET' }
 });
 ```
 

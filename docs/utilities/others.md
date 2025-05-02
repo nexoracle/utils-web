@@ -228,7 +228,7 @@ The `ensurePackage` function ensures a package is installed and imported. It wil
 #### Parameters:
 
 - **packageName** (`String`) - Name of the package to import.
-- **packageManager** (`String`, default: `"npm"`) - `'npm'`, `'yarn'`, or `'pnpm'`.
+- **packageManager** (`String`, default: `"npm"`) - `'npm'` , `'yarn'`, `'bun'`, or `'pnpm'`.
 - **shouldInstall** (`Boolean`, default: `true`) - Auto-install if missing.
 
 #### Returns:

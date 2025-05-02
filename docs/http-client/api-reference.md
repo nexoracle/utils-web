@@ -180,7 +180,7 @@ axium.all([request1, request2, request3]);
 
 - Promise that resolves when all requests are complete.
 
-### .getBuffer(url, options)
+### .getBuffer(url, options, method)
 
 Make a GET request and return a buffer.
 
@@ -192,10 +192,29 @@ axium.getBuffer(url, options);
 
 - `url`: The URL to send the request to.
 - `options` (optional): Request configuration.
+- `method`: The method used to make request. (`default: GET`)
 
 **Returns:**
 
-- Promise that resolves to a response object with data as a buffer.
+- Promise that resolves to a response with data as a buffer.
+
+### .fetchJson(url, options, method)
+
+Make a GET request and return json response.
+
+```javascript
+axium.fetchJson(url, options);
+```
+
+**Parameters:**
+
+- `url`: The URL to send the request to.
+- `options` (optional): Request configuration.
+- `method`: The method used to make request. (`default: GET`)
+
+**Returns:**
+
+- Promise that resolves to a response with data as a json.
 
 ### .head(url, options)
 

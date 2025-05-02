@@ -37,6 +37,7 @@ The `Axium` class extends `RequestHandler` and provides convenience methods for 
 - `all()` for concurrent requests
 - `head()` for HEAD requests
 - `getBuffer` for getting buffer from response
+- `fetchJson` directly fetches json response
 
 ### Interceptors
 
@@ -94,4 +95,4 @@ Axium supports a wide range of configuration options:
 - `onDownloadProgress`: Callback for download progress tracking
 - `onUploadProgress`: Callback for upload progress tracking
 - `signal`: AbortSignal for request cancellation
-- `responseType`: Force specific response parsing (`arraybuffer`, `blob`, `json`, `text`)
+- `responseType`: Force specific response parsing (`arraybuffer`, `blob`, `json`, `text`, `buffer`, `stream`)

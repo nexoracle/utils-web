@@ -25,14 +25,19 @@ A `string` representing the formatted date.
 const { getDate } = require("@nexoracle/utils"); // CJS
 import { getDate } from "@nexoracle/utils"; // ESM
 
-console.log(getDate()); // Current date (default YYYY-MM-DD). Output: '23-03-2025'
-console.log(getDate({ format: "YYYY-MM-DD" })); // Output: "2025-03-23"
+console.log(getDate()); // Current date (default DD-MM-YYYY). Output: '23-03-2025'
 console.log(getDate("2023-10-01")); // Output: "01-10-2023"
 console.log(getDate({ utc: true })); // Output: "23-03-2025" (UTC date)
 console.log(getDate({ timezone: "Asia/Karachi" })); // Output: "23-03-2025" (Pakistan Standard Time)
 console.log(getDate(1696156800000)); // Output: "01-10-2023"
-console.log(getDate({ format: "MM/DD/YYYY" })); // Output: "10/01/2023"
-console.log(getDate({ format: "YYYY/MM/DD" })); // Output: "2025/03/23"
+
+// Date formats
+console.log(getDate({ format: "DD-MM-YYYY" })); // Output: "02-05-2025"
+console.log(getDate({ format: "MM-DD-YYYY" })); // Output: "05-02-2025"
+console.log(getDate({ format: "YYYY-MM-DD" })); // Output: "2025-05-02"
+console.log(getDate({ format: "DD/MM/YYYY" })); // Output: "02/05/2025"
+console.log(getDate({ format: "MM/DD/YYYY" })); // Output: "05/02/2025"
+console.log(getDate({ format: "YYYY/MM/DD" })); // Output: "2025/05/02"
 ```
 
 ---
@@ -121,4 +126,67 @@ const { getTimeZone } = require("@nexoracle/utils"); // CJS
 import { getTimeZone } from "@nexoracle/utils"; // ESM
 
 console.log(getTimeZone()); // Output: Your current timezone
+```
+
+---
+
+## Clock String
+
+The `clockString` function formats a number of seconds into a human-readable time string (`HH:MM:SS` or `MM:SS`).
+
+**Browser Support: ✅ Yes**
+
+#### Parameters:
+
+- **seconds** (`number`): The total number of seconds.
+- **showHours** (`boolean`, optional, default = `true`): Whether to include hours in the output.
+
+#### Returns:
+
+A `string` representing the formatted time.
+
+#### Example Usage:
+
+```js
+// Import the function
+const { clockString } = require("@nexoracle/utils"); // CJS
+import { clockString } from "@nexoracle/utils"; // ESM
+
+console.log(clockString(3661)); // Output: 01:01:01
+console.log(clockString(3661, false)); // Output: 61:01
+console.log(clockString(59)); // Output: 00:00:59
+console.log(clockString(59, false)); // Output: 00:59
+console.log(clockString(NaN)); // Output: --:--:--
+```
+
+---
+
+## Format ISO Date
+
+The `formatISODate` function formats a date or timestamp into a locale-specific date and time string.
+
+**Browser Support: ✅ Yes**
+
+#### Parameters:
+
+- **n** (`string | number | Date`): The input date, timestamp, or date string.
+- **locale** (`string`, optional, default = `"en"`): The locale for formatting (e.g., "en", "fr", "de").
+- **timezone** (`string`, optional): An IANA timezone (e.g., "UTC", "Asia/Karachi").
+
+#### Returns:
+
+A `string` with the formatted date and time, or `"Invalid Date"` if input is invalid.
+
+#### Example Usage:
+
+```js
+// Import the function
+const { formatISODate } = require("@nexoracle/utils"); // CJS
+import { formatISODate } from "@nexoracle/utils"; // ESM
+
+console.log(formatISODate(new Date())); // Output: 04/30/2025, 05:12:34 PM
+console.log(formatISODate("2025-05-01T12:00:00Z", "en", "UTC")); // Output: 05/01/2025, 12:00:00 PM
+console.log(formatISODate("2025-05-01T12:00:00Z")); // Output: 05/01/2025, 05:00:00 PM
+console.log(formatISODate(1714550400000, "ur", "Asia/Karachi")); // Output: 01/05/2024, 01:00:00 PM
+console.log(formatISODate("invalid")); // Output: Invalid Date
 ```

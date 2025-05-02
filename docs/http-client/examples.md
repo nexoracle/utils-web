@@ -170,7 +170,17 @@ axium.head("https://jsonplaceholder.typicode.com/posts/1").then((response) => {
 ```js
 // Get a buffer response (like an image)
 axium.getBuffer("https://i.pinimg.com/474x/f9/18/03/f91803e3936ec263d27da0259a90c27f.jpg").then((response) => {
-  console.log("Buffer received, length:", response.data);
+  console.log("Buffer received, length:", response);
+  // Do something with the buffer data
+});
+```
+
+### fetchJson Request
+
+```js
+// Get a buffer response (like an image)
+axium.fetchJson("https://jsonplaceholder.typicode.com/users").then((response) => {
+  console.log("json response:", response);
   // Do something with the buffer data
 });
 ```
