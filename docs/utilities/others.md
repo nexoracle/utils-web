@@ -254,6 +254,8 @@ get("https://jsonplaceholder.typicode.com/posts/1").then((response) => {
 });
 ```
 
+---
+
 ## Download File
 
 It downloads any file over https connection.
@@ -278,4 +280,36 @@ import { downloadFile } from "@nexoracle/utils"; // ESM
   console.log(await downloadFile("https://i.pinimg.com/474x/f6/39/66/f639663a7107b26ba08b7a98f8c84448.jpg", "./image.jpg"));
   // Output: saves file with name image.png
 })();
+```
+
+---
+
+Here's the **HTML-style documentation** for both `escapeHTML` and `isValidIP`, written in the same format as your `ensurePackage` example:
+
+---
+
+## Escape HTML
+
+The `escapeHTML` function escapes special characters in a string to prevent HTML injection or XSS attacks.
+
+#### Parameters:
+
+- **str** (`String`) – The string to escape.
+
+#### Returns:
+
+A new string with HTML-sensitive characters converted to their corresponding HTML entities.
+
+#### Example Usage:
+
+```js
+// Import the function
+const { escapeHTML } = require("@nexoracle/utils"); // CJS
+import { escapeHTML } from "@nexoracle/utils"; // ESM
+
+const input = `<script>alert("XSS")</script>`;
+const safe = escapeHTML(input);
+
+console.log(safe);
+// Output: &lt;script&gt;alert(&quot;XSS&quot;)&lt;&#x2F;script&gt;
 ```

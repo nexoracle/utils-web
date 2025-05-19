@@ -459,3 +459,31 @@ console.log(toBool("false", false)); // Output: "false"
 ```
 
 ---
+
+## Is Valid IP
+
+The `isValidIP` function checks if a given string is a valid IPv4 or IPv6 address.
+
+#### Parameters:
+
+- **ip** (`String`) – The IP address string to validate.
+
+#### Returns:
+
+A boolean value:
+
+- `true` if the string is a valid IP address (IPv4 or IPv6)
+- `false` otherwise
+
+#### Example Usage:
+
+```js
+// Import the function
+const { isValidIP } = require("@nexoracle/utils"); // CJS
+import { isValidIP } from "@nexoracle/utils"; // ESM
+
+console.log(isValidIP("192.168.1.1")); // true
+console.log(isValidIP("2001:0db8:85a3:0000:0000:8a2e:0370:7334")); // true
+console.log(isValidIP("999.999.999.999")); // false
+console.log(isValidIP("hello")); // false
+```
