@@ -45,7 +45,7 @@ For browser environments, you can include the library via CDN:
 
 ```html
 <script type="module">
-  import { getRandom } from "https://cdn.jsdelivr.net/npm/@nexoracle/utils@1.1.19/dist/browser/index.mjs";
+  import { getRandom } from "https://cdn.jsdelivr.net/npm/@nexoracle/utils@1.1.20/dist/browser/index.mjs";
 
   console.log(getRandom());
 </script>
@@ -54,7 +54,7 @@ For browser environments, you can include the library via CDN:
 #### Global Script
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@nexoracle/utils@1.1.19/dist/browser/index.global.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@nexoracle/utils@1.1.20/dist/browser/index.global.js"></script>
 <script>
   // Access utilities through the global 'utils' object
   const { getRandom } = utils;
@@ -68,7 +68,7 @@ For browser environments, you can include the library via CDN:
 For reference, the CommonJS version is also available at:
 
 ```
-https://cdn.jsdelivr.net/npm/@nexoracle/utils@1.1.19/dist/browser/index.cjs
+https://cdn.jsdelivr.net/npm/@nexoracle/utils@1.1.20/dist/browser/index.cjs
 ```
 
 #### Things to Consider

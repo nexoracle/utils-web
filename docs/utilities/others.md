@@ -284,10 +284,6 @@ import { downloadFile } from "@nexoracle/utils"; // ESM
 
 ---
 
-Here's the **HTML-style documentation** for both `escapeHTML` and `isValidIP`, written in the same format as your `ensurePackage` example:
-
----
-
 ## Escape HTML
 
 The `escapeHTML` function escapes special characters in a string to prevent HTML injection or XSS attacks.

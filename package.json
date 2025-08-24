@@ -20,6 +20,7 @@
   },
   "homepage": "https://utils.nexoracle.com",
   "author": "nexoracle",
+  "license": "MIT",
   "dependencies": {
     "@docusaurus/core": "3.7.0",
     "@docusaurus/preset-classic": "3.7.0",
