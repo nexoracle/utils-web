@@ -288,6 +288,8 @@ import { downloadFile } from "@nexoracle/utils"; // ESM
 
 The `escapeHTML` function escapes special characters in a string to prevent HTML injection or XSS attacks.
 
+**Browser Support: ✅ Yes**
+
 #### Parameters:
 
 - **str** (`String`) – The string to escape.

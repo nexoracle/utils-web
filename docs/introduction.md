@@ -34,7 +34,7 @@ npm install @nexoracle/utils
 Since `@nexoracle/utils` is actively maintained, updates are released regularly on **npm**. However, if you want to use the latest features or contribute to the development, you can install the package directly from the GitHub repository:
 
 ```bash
-npm install git+https://github.com/nexoracle/utils.git
+npm install github:nexoracle/utils
 ```
 
 ### Browser
