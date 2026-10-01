@@ -434,30 +434,35 @@ console.log(isEmail("invalid-email")); // Output: false
 
 ## To Boolean
 
-Convert a string to a boolean or string representation of a boolean.
+Convert a string to a boolean or a string representation of a boolean.
 
 **Browser Support: ✅ Yes**
 
 #### Parameters:
 
-- **str** (string) - Input string options (true|yes|ok|act|sure|enable).
-- **returnBool** (boolean, optional) - If true, returns a boolean; otherwise, returns a string. default: `true`
+- **`input`** (string) - Input string. Supported true values: `true|yes|act|enable|on`. Supported false values: `false|no|deact|disable|off`.
+- **`returnBool`** (boolean, optional) - If `true`, returns a boolean; if `false`, returns a string representation of the boolean. Default: `true`.
 
 #### Returns:
 
-`boolean | string` - Boolean or string representation of the `boolean`.
+`boolean | string | undefined` - Returns a boolean or string representation of the boolean for recognized input. Returns `undefined` for empty or unrecognized input.
 
 #### Example Usage:
 
 ```js
 // Import the function
+
 const { toBool } = require("@nexoracle/utils"); // CJS
 import { toBool } from "@nexoracle/utils"; // ESM
 
 console.log(toBool("true")); // Output: true
+console.log(toBool("on")); // Output: true
+console.log(toBool("off")); // Output: false
 console.log(toBool("false", false)); // Output: "false"
+console.log(toBool("enable", false)); // Output: "true"
+console.log(toBool("hello")); // Output: undefined
+console.log(toBool("")); // Output: undefined
 ```
-
 ---
 
 ## Is Valid IP
